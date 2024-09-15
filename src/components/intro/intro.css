@@ -1,0 +1,90 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex; 
+    align-items: center; 
+}
+
+.introContent {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.introMsg {
+    flex: 1; 
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.myname {
+    color: rgb(190, 255, 10);
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.bg {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2rem; 
+}
+
+.bg img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.parabtn {
+    background: rgb(190, 255, 10);
+    border: 1px solid rgb(190, 255, 10);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.parabtn:hover,
+.parabtn:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(190, 255, 10);
+}
+
+.parabtn:active {
+    opacity: .5;
+}
